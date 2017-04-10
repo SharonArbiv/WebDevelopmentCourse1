@@ -1,0 +1,144 @@
+body {
+    direction: rtl;
+    background-color:#fef2ff
+}
+
+#container {
+    Width: 960px;
+    Margin: 0 auto;
+}
+p {
+    font-size: 3.5em;
+    color: #4cecea;
+    font-family: 'Varela Round';
+    margin-top: -10px;
+    float: left;
+    margin-right:320px;
+    text-align: center;
+    margin-left:400px;
+}
+#me {
+    background-image: url('../images/profile2.jpg');
+    border: solid #000000;
+    float:left;
+    height: 285px;
+    width: 380px;
+  margin-top:-40px;
+  margin-right:700px;
+position:absolute;
+
+}
+
+    #me:hover {
+        background-image: url('../images/flowers.jpg');
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+
+#arrow {
+    background-image: url('../images/arrow copy.png');
+    float: left;
+    height: 200px;
+    width: 200px;
+     margin-top:10px;
+       margin-right:200px;
+position:absolute;
+
+}
+
+#sig {
+    background-image: url('../images/1756957333151810090417.png');
+    float: left;
+    height: 150px;
+    width: 150px;
+    background-repeat:no-repeat;
+      margin-top:260px;
+       margin-right:820px;
+position:absolute;
+
+}
+#sig:hover{
+    background-image: url('../images/1756957333151810090417.png');
+resize: both;
+overflow: auto;
+min-width: 50px;
+min-height: 50px
+}
+
+
+#menu ul {
+    margin-top: 200px;
+    margin-right: -120px;
+}
+
+    #menu ul li {
+        display: block;
+        width: 120px;
+        height: 30px;
+        font-family: 'Varela Round';
+        margin: 14px 0px 0px 0px;
+    }
+
+    #menu ul a {
+        color: white;
+    }
+
+    #menu ul li a {
+        display: block;
+        background-color: #bb9191;
+        text-decoration: none;
+        text-align: center;
+        width: 120px;
+        height: 30px;
+        Padding-top: 10px;
+    }
+
+        #menu ul li a:hover {
+            background-color: #ffa5e9;
+        }
+
+        #menu ul li a:active {
+            background-color: #c7b8b8;
+        }
+
+    #menu ul li ul {
+        display: none;
+        position: absolute;
+        padding-right: 5px;
+    }
+
+    #menu ul li:hover ul {
+        display: block;
+        margin-right: 120px;
+        margin-top: -54px;
+    }
+
+        #menu ul li:hover ul li {
+            display: inline-block;
+        }
+
+
+        #center a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+        
+#facebook {
+    background-image: url('../images/facebook.png');
+}
+
+#instagram {
+    background-image: url('../images/Instagram.png');
+}
+#center{
+    margin-right:-110px;
+    margin-top:40px;
+
+}
